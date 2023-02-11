@@ -6,19 +6,19 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 
-##### Seção 1: [Unix, Shell e Git](https://github.com/marcospanontin/trybe-exercicios/tree/master/fundamentos/secao-01-unix-shell-e-git) :heavy_check_mark:
+##### Seção 1: [Unix, Shell e Git](https://github.com/marcospanontin/trybe-exercicios/tree/master/01-fundamentos/secao-01-unix-shell-e-git) :heavy_check_mark:
 - [x] 1.1 - Unix & Shell
 - [x] 1.2 - Git - O que é e para que serve
 - [x] 1.3 - Git & GitHub - Entendendo os comandos
 
-##### Seção 2: [Introdução a HTML e& CSS](https://github.com/marcospanontin/trybe-exercicios/tree/master/fundamentos/secao-02-introducao-a-html-e-css)
+##### Seção 2: [Introdução a HTML e& CSS](https://github.com/marcospanontin/trybe-exercicios/tree/master/01-fundamentos/secao-02-introducao-a-html-e-css)
 - [ ] 2.1 - HTML & CSS - Estruturas de página
 - [ ] 2.2 - HTML & CSS - Primeiros passos em CSS
 - [ ] 2.3 - HTML & CSS - Seletores e posicionamento
 - [ ] 2.4 - HTML Semântico
 - [ ] 2.5 - Projeto - Lessons Learned
 
-##### Seção 3: [Introdução a JavaScript](https://github.com/marcospanontin/trybe-exercicios/tree/master/fundamentos/secao-03-introducao-a-javascript)
+##### Seção 3: [Introdução a JavaScript](https://github.com/marcospanontin/trybe-exercicios/tree/master/01-fundamentos/secao-03-introducao-a-javascript)
 - [ ] 3.1 - JavaScript - Primeiros passos
 - [ ] 3.2 - JavaScript - Array e loop For
 - [ ] 3.3 - JavaScript - Lógica de Programação e Algoritmos
@@ -26,7 +26,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [ ] 3.5 - JavaScript ES6 - let, const, arrow functions e template literals
 - [ ] 3.6 - Projeto - Playground Functions
 
-##### Seção 4: [JavaScript: DOM, Eventos e Web Storage](https://github.com/marcospanontin/trybe-exercicios/tree/master/fundamentos/secao-04-javascript-dom-eventos-e-web-storage)
+##### Seção 4: [JavaScript: DOM, Eventos e Web Storage](https://github.com/marcospanontin/trybe-exercicios/tree/master/01-fundamentos/secao-04-javascript-dom-eventos-e-web-storage)
 - [ ] 4.1 - JavaScript - DOM e seletores
 - [ ] 4.2 - JavaScript - Trabalhando com elementos
 - [ ] 4.3 - JavaScript - Eventos
@@ -37,7 +37,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [ ] 4.7 - (Bônus) Projeto - Adivinhe a Cor
 - [ ] 4.7 - (Bônus) Projeto - Carta Misteriosa
 
-##### Seção 5: [HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/marcospanontin/trybe-exercicios/tree/master/fundamentos/secao-05-html-e-css-forms-flexbox-e-responsivo)
+##### Seção 5: [HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/marcospanontin/trybe-exercicios/tree/master/01-fundamentos/secao-05-html-e-css-forms-flexbox-e-responsivo)
 - [ ] 5.1 - HTML & CSS - Forms
 - [ ] 5.2 - Bibliotecas JavaScript e Frameworks CSS
 - [ ] 5.3 - CSS Flexbox - Parte 1
@@ -45,13 +45,13 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [ ] 5.5 - CSS Responsivo - Mobile First
 - [ ] 5.6 - Projeto - Trybewarts
 
-##### Seção 6: [Introdução à JavaScript ES6 e Testes Unitários](https://github.com/marcospanontin/trybe-exercicios/tree/master/fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios)
+##### Seção 6: [Introdução à JavaScript ES6 e Testes Unitários](https://github.com/marcospanontin/trybe-exercicios/tree/master/01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios)
 - [ ] 6.1 - Fluxo de exceções e manipulação de objetos
 - [ ] 6.2 - Primeiros passos em Jest
 - [ ] 6.3 - Matchers e cobertura de código
 - [ ] 6.4 - Projeto - JavaScript Testes Unitários
 
-##### Seção 7: [Higher Order Functions do JavaScript ES6](https://github.com/marcospanontin/trybe-exercicios/tree/master/fundamentos/secao-07-higher-order-functions-do-javascript-es6)
+##### Seção 7: [Higher Order Functions do JavaScript ES6](https://github.com/marcospanontin/trybe-exercicios/tree/master/01-fundamentos/secao-07-higher-order-functions-do-javascript-es6)
 - [ ] 7.1 - Introdução a Higher Order Functions
 - [ ] 7.2 - Higher Order Functions - sort e map
 - [ ] 7.3 - Higher Order Functions - filter e reduce
@@ -62,46 +62,46 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ## Desenvolvimento Front-end
 <!-- 
-##### Seção 9: [JavaScript Assíncrono e Promises](https://github.com/marcospanontin/trybe-exercicios/tree/master/front-end/Seção-09-javascript-assincrono-e-promises)
+##### Seção 9: [JavaScript Assíncrono e Promises](https://github.com/marcospanontin/trybe-exercicios/tree/master/02-front-end/Seção-09-javascript-assincrono-e-promises)
 - [ ] 9.1 - JavaScript Assíncrono e Callbacks
 - [ ] 9.2 - JavaScript Promises
 - [ ] 9.3 - Projeto - Carrinho de Compras
 
-##### Seção 10: [Testes automatizados com Jest](https://github.com/marcospanontin/trybe-exercicios/tree/master/front-end/Seção-10-testes-automatizados-com-jest)
+##### Seção 10: [Testes automatizados com Jest](https://github.com/marcospanontin/trybe-exercicios/tree/master/02-front-end/Seção-10-testes-automatizados-com-jest)
 - [ ] 10.1 - Primeiros passos no Jest
 - [ ] 10.2 - Jest - Testes Assíncronos
 - [ ] 10.3 - Jest - Simulando comportamentos
 - [ ] 10.4 - Projeto - Jest Assíncrono e Mocking
 
 
-##### Seção 11: [Introdução à React](https://github.com/marcospanontin/trybe-exercicios/tree/master/front-end/Seção-11-introducao-a-react)
+##### Seção 11: [Introdução à React](https://github.com/marcospanontin/trybe-exercicios/tree/master/02-front-end/Seção-11-introducao-a-react)
 - [ ] 11.1 - Introdução - Front-end
 - [ ] 11.1 - Introdução - React
 - [ ] 11.1 - 'Hello, world!' no React!
 - [ ] 11.2 - Componentes React
 - [ ] 11.3 - Projeto - Movie Cards Library
 
-##### Seção 12: [Componentes com Estado, Eventos e Formulários com React](https://github.com/marcospanontin/trybe-exercicios/tree/master/front-end/Seção-12-componentes-com-estado-eventos-e-formularios-com-react)
+##### Seção 12: [Componentes com Estado, Eventos e Formulários com React](https://github.com/marcospanontin/trybe-exercicios/tree/master/02-front-end/Seção-12-componentes-com-estado-eventos-e-formularios-com-react)
 - [ ] 12.1 - Componentes com estado e eventos
 - [ ] 12.2 - Formulários no React
 - [ ] 12.3 - Projeto - Movie Cards Library Stateful
 
-##### Seção 13: [Ciclo de Vida de Componentes e React Router](https://github.com/marcospanontin/trybe-exercicios/tree/master/front-end/Seção-13-ciclo-de-vida-de-componentes-e-react-router)
+##### Seção 13: [Ciclo de Vida de Componentes e React Router](https://github.com/marcospanontin/trybe-exercicios/tree/master/02-front-end/Seção-13-ciclo-de-vida-de-componentes-e-react-router)
 - [ ] 12.1 - Ciclo de vida de componentes
 - [ ] 12.2 - React Router
 - [ ] 12.3 - Projeto - Movie Cards Library CRUD
 
-##### Seção 14: [Metodologias Ágeis](https://github.com/marcospanontin/trybe-exercicios/tree/master/front-end/Seção-14-metodologias-ageis/dia-01-metodologias-ageis)
+##### Seção 14: [Metodologias Ágeis](https://github.com/marcospanontin/trybe-exercicios/tree/master/02-front-end/Seção-14-metodologias-ageis/dia-01-metodologias-ageis)
 - [ ] 13.1 - Metodologias Ágeis
 - [ ] 13.2 - Projeto - Frontend Online Store
 
-##### Seção 15: [Testes automatizados com React Testing Library](https://github.com/marcospanontin/trybe-exercicios/tree/master/front-end/Seção-15-testes-automatizados-com-react-testing-library)
+##### Seção 15: [Testes automatizados com React Testing Library](https://github.com/marcospanontin/trybe-exercicios/tree/master/02-front-end/Seção-15-testes-automatizados-com-react-testing-library)
 - [ ] 14.1 - RTL - Primeiros passos
 - [ ] 14.2 - RTL - Mocks e Inputs
 - [ ] 14.3 - RTL - Testando React Router
 - [ ] 14.4 - Projeto - Testes em React
 
-##### Seção 16: [Gerenciamento de estado com Redux](https://github.com/marcospanontin/trybe-exercicios/tree/master/front-end/Seção-16-gerenciamento-de-estado-com-redux)
+##### Seção 16: [Gerenciamento de estado com Redux](https://github.com/marcospanontin/trybe-exercicios/tree/master/02-front-end/Seção-16-gerenciamento-de-estado-com-redux)
 - [ ] 15.1 - Introdução ao Redux - O estado global da aplicação
 - [ ] 15.2 - Usando o Redux no React
 - [ ] 15.3 - Usando o Redux no React - Prática
@@ -112,7 +112,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 ##### Seção 17: Projeto Jogo de Trivia
 - [ ] 16.1 - Projeto - Jogo de Trivia
 
-##### Seção 18: [Context API e React Hooks](https://github.com/marcospanontin/trybe-exercicios/tree/master/front-end/Seção-18-context-api-e-react-hooks)
+##### Seção 18: [Context API e React Hooks](https://github.com/marcospanontin/trybe-exercicios/tree/master/02-front-end/Seção-18-context-api-e-react-hooks)
 - [ ] 17.1 - Context API do React
 - [ ] 17.2 - React Hooks - useState e useContext
 - [ ] 17.3 - React Hooks - useEffect e Hooks customizados
@@ -123,7 +123,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ## Desenvolvimento Back-end
 <!-- 
-##### Seção 20: [Introdução à SQL](https://github.com/marcospanontin/trybe-exercicios/tree/master/back-end/Seção-20-introducao-a-sql)
+##### Seção 20: [Introdução à SQL](https://github.com/marcospanontin/trybe-exercicios/tree/master/03-back-end/Seção-20-introducao-a-sql)
 - [ ] 20.1 - Introdução - Back-end
 - [ ] 20.1 - Introdução - Bancos de dados relacionais
 - [ ] 20.1 - Banco de dados SQL
@@ -132,36 +132,36 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [ ] 20.4 - Manipulando tabelas
 - [ ] 20.5 - Projeto - All For One
 
-##### Seção 21: [Funções SQL, Joins e Subqueries](https://github.com/marcospanontin/trybe-exercicios/tree/master/back-end/Seção-21-funcoes-sql-joins-e-subqueries)
+##### Seção 21: [Funções SQL, Joins e Subqueries](https://github.com/marcospanontin/trybe-exercicios/tree/master/03-back-end/Seção-21-funcoes-sql-joins-e-subqueries)
 - [ ] 21.1 - Funções mais usadas no SQL
 - [ ] 21.2 - Descomplicando JOINs e UNIONs
 - [ ] 21.3 - Stored Routines & Subqueries
 - [ ] 21.4 - Projeto - Vocabulary Booster
 
-##### Seção 22: [Normalização e Modelagem de Banco de Dados](https://github.com/marcospanontin/trybe-exercicios/tree/master/back-end/Seção-22-normalizacao-e-modelagem-de-banco-de-dados)
+##### Seção 22: [Normalização e Modelagem de Banco de Dados](https://github.com/marcospanontin/trybe-exercicios/tree/master/03-back-end/Seção-22-normalizacao-e-modelagem-de-banco-de-dados)
 - [ ] 22.1 - Transformando ideias em um modelo de banco de dados
 - [ ] 22.2 - Normalização, Formas Normais e Dumps
 - [ ] 22.3 - Transformando ideias em um modelo de banco de dados - Parte 2
 - [ ] 22.4 - Projeto - One For All
 
-##### Seção 23: [Introdução ao MongoDB](https://github.com/marcospanontin/trybe-exercicios/tree/master/back-end/Seção-23-introducao-ao-mongodb)
+##### Seção 23: [Introdução ao MongoDB](https://github.com/marcospanontin/trybe-exercicios/tree/master/03-back-end/Seção-23-introducao-ao-mongodb)
 - [ ] 22.1 - Introdução - NoSQL
 - [ ] 22.1 - MongoDB - Introdução
 - [ ] 22.2 - Filter Operators
 - [ ] 22.3 - Projeto - Data Flights
 
-##### Seção 24: [MongoDB: Updates Simples e Complexos](https://github.com/marcospanontin/trybe-exercicios/tree/master/back-end/Seção-24-mongodb-updates-simples-e-complexos)
+##### Seção 24: [MongoDB: Updates Simples e Complexos](https://github.com/marcospanontin/trybe-exercicios/tree/master/03-back-end/Seção-24-mongodb-updates-simples-e-complexos)
 - [ ] 23.1 - Updates Simples
 - [ ] 23.2 - Updates Complexos - Arrays - Parte 1
 - [ ] 23.3 - Updates Complexos - Arrays - Parte 2
 - [ ] 23.4 - Projeto - Commerce
 
-##### Seção 25: [MongoDB: Aggregation Framework](https://github.com/marcospanontin/trybe-exercicios/tree/master/back-end/Seção-25-mongodb-aggregation-framework)
+##### Seção 25: [MongoDB: Aggregation Framework](https://github.com/marcospanontin/trybe-exercicios/tree/master/03-back-end/Seção-25-mongodb-aggregation-framework)
 - [ ] 24.1 - Aggregation Framework - Parte 1
 - [ ] 24.2 - Aggregation Framework - Parte 2
 - [ ] 24.3 - Projeto - Aggregations
 
-##### Seção 26: [Introdução ao desenvolvimento Web com NodeJS](https://github.com/marcospanontin/trybe-exercicios/tree/master/back-end/Seção-26-introducao-ao-desenvolvimento-web-com-nodejs)
+##### Seção 26: [Introdução ao desenvolvimento Web com NodeJS](https://github.com/marcospanontin/trybe-exercicios/tree/master/03-back-end/Seção-26-introducao-ao-desenvolvimento-web-com-nodejs)
 - [ ] 25.1 - Intro - NodeJS
 - [ ] 25.1 - NodeJS - Introdução
 - [ ] 25.2 - NodeJS - Fluxo Assíncrono
@@ -170,7 +170,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [ ] 25.5 - Praticando Express
 - [ ] 25.6 - Projeto - Talker manager
 
-##### Seção 27: [NodeJS: Camada de Serviço e Arquitetura Rest e Restful](https://github.com/marcospanontin/trybe-exercicios/tree/master/back-end/Seção-27-nodejs-camada-de-servico-e-arquitetura-rest-e-restful)
+##### Seção 27: [NodeJS: Camada de Serviço e Arquitetura Rest e Restful](https://github.com/marcospanontin/trybe-exercicios/tree/master/03-back-end/Seção-27-nodejs-camada-de-servico-e-arquitetura-rest-e-restful)
 - [ ] 26.1 - Introdução - Arquitetura de Software
 - [ ] 26.1 - Arquitetura de Software - Camada de Model
 - [ ] 26.2 - Arquitetura de Software - Camada de Controller e Service
@@ -178,13 +178,13 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [ ] 26.4 - Arquitetura de Software - Testando as Camadas
 - [ ] 26.5 - Projeto - Store Manager
 
-##### Seção 28: [Autenticação e Upload de Arquivos](https://github.com/marcospanontin/trybe-exercicios/tree/master/back-end/Seção-28-autenticacao-e-upload-de-arquivos)
+##### Seção 28: [Autenticação e Upload de Arquivos](https://github.com/marcospanontin/trybe-exercicios/tree/master/03-back-end/Seção-28-autenticacao-e-upload-de-arquivos)
 - [ ] 27.1 - NodeJS - JWT - (JSON Web Token)
 - [ ] 27.2 - NodeJS - Upload de arquivos com Multer
 - [ ] 27.3 - NodeJS - Testando APIs com Testes de Integração
 - [ ] 27.4 - Projeto - Cookmaster
 
-##### Seção 29: [Deployment](https://github.com/marcospanontin/trybe-exercicios/tree/master/back-end/Seção-29-deployment)
+##### Seção 29: [Deployment](https://github.com/marcospanontin/trybe-exercicios/tree/master/03-back-end/Seção-29-deployment)
 - [ ] 29.1 - Introdução - Deploy
 - [ ] 29.1 - Infraestrutura - Deploy com Heroku
 - [ ] 29.2 - Deploy - Gerenciadores de Processos
