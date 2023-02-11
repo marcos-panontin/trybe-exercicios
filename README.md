@@ -6,7 +6,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 
-##### Seção 1: [Unix, Shell e Git](https://github.com/marcospanontin/trybe-exercicios/tree/master/01-fundamentos/secao-01-unix-shell-e-git) :white_check_mark:
+##### Seção 1: [Unix, Shell e Git](https://github.com/marcospanontin/trybe-exercicios/tree/master/01-fundamentos/secao-01-unix-shell-e-git) :heavy_check_mark:
 - [x] 1.1 - Unix & Shell
 - [x] 1.2 - Git - O que é e para que serve
 - [x] 1.3 - Git & GitHub - Entendendo os comandos
