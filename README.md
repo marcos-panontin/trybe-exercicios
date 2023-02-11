@@ -6,19 +6,19 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 
-##### Seção 1: [Unix, Shell e Git](https://github.com/marcospanontin/trybe-exercises/tree/master/01-fundamentos/secao-01-unix-shell-e-git) :heavy_check_mark:
+##### Seção 1: [Unix, Shell e Git](https://github.com/marcospanontin/trybe-exercises/tree/master/fundamentos/secao-01-unix-shell-e-git) :heavy_check_mark:
 - [x] 1.1 - Unix & Shell
 - [x] 1.2 - Git - O que é e para que serve
 - [x] 1.3 - Git & GitHub - Entendendo os comandos
 
-##### Seção 2: [Introdução a HTML e& CSS](https://github.com/marcospanontin/trybe-exercises/tree/master/01-fundamentos/secao-02-introducao-a-html-e-css)
+##### Seção 2: [Introdução a HTML e& CSS](https://github.com/marcospanontin/trybe-exercises/tree/master/fundamentos/secao-02-introducao-a-html-e-css)
 - [ ] 2.1 - HTML & CSS - Estruturas de página
 - [ ] 2.2 - HTML & CSS - Primeiros passos em CSS
 - [ ] 2.3 - HTML & CSS - Seletores e posicionamento
 - [ ] 2.4 - HTML Semântico
 - [ ] 2.5 - Projeto - Lessons Learned
 
-##### Seção 3: [Introdução a JavaScript](https://github.com/marcospanontin/trybe-exercises/tree/master/01-fundamentos/secao-03-introducao-a-javascript)
+##### Seção 3: [Introdução a JavaScript](https://github.com/marcospanontin/trybe-exercises/tree/master/fundamentos/secao-03-introducao-a-javascript)
 - [ ] 3.1 - JavaScript - Primeiros passos
 - [ ] 3.2 - JavaScript - Array e loop For
 - [ ] 3.3 - JavaScript - Lógica de Programação e Algoritmos
@@ -26,7 +26,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [ ] 3.5 - JavaScript ES6 - let, const, arrow functions e template literals
 - [ ] 3.6 - Projeto - Playground Functions
 
-##### Seção 4: [JavaScript: DOM, Eventos e Web Storage](https://github.com/marcospanontin/trybe-exercises/tree/master/01-fundamentos/secao-04-javascript-dom-eventos-e-web-storage)
+##### Seção 4: [JavaScript: DOM, Eventos e Web Storage](https://github.com/marcospanontin/trybe-exercises/tree/master/fundamentos/secao-04-javascript-dom-eventos-e-web-storage)
 - [ ] 4.1 - JavaScript - DOM e seletores
 - [ ] 4.2 - JavaScript - Trabalhando com elementos
 - [ ] 4.3 - JavaScript - Eventos
@@ -37,7 +37,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [ ] 4.7 - (Bônus) Projeto - Adivinhe a Cor
 - [ ] 4.7 - (Bônus) Projeto - Carta Misteriosa
 
-##### Seção 5: [HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/marcospanontin/trybe-exercises/tree/master/01-fundamentos/secao-05-html-e-css-forms-flexbox-e-responsivo)
+##### Seção 5: [HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/marcospanontin/trybe-exercises/tree/master/fundamentos/secao-05-html-e-css-forms-flexbox-e-responsivo)
 - [ ] 5.1 - HTML & CSS - Forms
 - [ ] 5.2 - Bibliotecas JavaScript e Frameworks CSS
 - [ ] 5.3 - CSS Flexbox - Parte 1
@@ -45,13 +45,13 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [ ] 5.5 - CSS Responsivo - Mobile First
 - [ ] 5.6 - Projeto - Trybewarts
 
-##### Seção 6: [Introdução à JavaScript ES6 e Testes Unitários](https://github.com/marcospanontin/trybe-exercises/tree/master/01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios)
+##### Seção 6: [Introdução à JavaScript ES6 e Testes Unitários](https://github.com/marcospanontin/trybe-exercises/tree/master/fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios)
 - [ ] 6.1 - Fluxo de exceções e manipulação de objetos
 - [ ] 6.2 - Primeiros passos em Jest
 - [ ] 6.3 - Matchers e cobertura de código
 - [ ] 6.4 - Projeto - JavaScript Testes Unitários
 
-##### Seção 7: [Higher Order Functions do JavaScript ES6](https://github.com/marcospanontin/trybe-exercises/tree/master/01-fundamentos/secao-07-higher-order-functions-do-javascript-es6)
+##### Seção 7: [Higher Order Functions do JavaScript ES6](https://github.com/marcospanontin/trybe-exercises/tree/master/fundamentos/secao-07-higher-order-functions-do-javascript-es6)
 - [ ] 7.1 - Introdução a Higher Order Functions
 - [ ] 7.2 - Higher Order Functions - sort e map
 - [ ] 7.3 - Higher Order Functions - filter e reduce
@@ -62,12 +62,12 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ## Desenvolvimento Front-end
 <!-- 
-##### Seção 9: [JavaScript Assíncrono e Promises](https://github.com/marcospanontin/trybe-exercises/tree/master/01-fundamentos/Seção-09-javascript-assincrono-e-promises)
+##### Seção 9: [JavaScript Assíncrono e Promises](https://github.com/marcospanontin/trybe-exercises/tree/master/fundamentos/Seção-09-javascript-assincrono-e-promises)
 - [ ] 9.1 - JavaScript Assíncrono e Callbacks
 - [ ] 9.2 - JavaScript Promises
 - [ ] 9.3 - Projeto - Carrinho de Compras
 
-##### Seção 10: [Testes automatizados com Jest](https://github.com/marcospanontin/trybe-exercises/tree/master/01-fundamentos/Seção-10-testes-automatizados-com-jest)
+##### Seção 10: [Testes automatizados com Jest](https://github.com/marcospanontin/trybe-exercises/tree/master/fundamentos/Seção-10-testes-automatizados-com-jest)
 - [ ] 10.1 - Primeiros passos no Jest
 - [ ] 10.2 - Jest - Testes Assíncronos
 - [ ] 10.3 - Jest - Simulando comportamentos
