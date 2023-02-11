@@ -59,9 +59,9 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [ ] 7.4 - JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e default parameters
 - [ ] 7.5 - Projeto - Zoo functions
 
-<!-- 
-## Desenvolvimento Front-end
 
+## Desenvolvimento Front-end
+<!-- 
 ##### Seção 9: [JavaScript Assíncrono e Promises](https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/Seção-09-javascript-assincrono-e-promises)
 - [ ] 9.1 - JavaScript Assíncrono e Callbacks
 - [ ] 9.2 - JavaScript Promises
@@ -119,10 +119,10 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [ ] 17.4 - Projeto - StarWars Datatable com Context API e Hooks
 
 ##### Seção 19: Projeto App de Receitas
-- [ ] 19.1 - Projeto - App de Receitas
+- [ ] 19.1 - Projeto - App de Receitas -->
 
 ## Desenvolvimento Back-end
-
+<!-- 
 ##### Seção 20: [Introdução à SQL](https://github.com/paulohbsimoes/trybe-exercises/tree/master/03-back-end/Seção-20-introducao-a-sql)
 - [ ] 20.1 - Introdução - Back-end
 - [ ] 20.1 - Introdução - Bancos de dados relacionais
@@ -203,11 +203,11 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [ ] 31.3 - Projeto - Webchat
 
 ##### Seção 32: Projeto Trybeer II
-- [ ] 32.1 - Projeto - Trybeer v2
+- [ ] 32.1 - Projeto - Trybeer v2 -->
 
-## Ciência da Computação :hourglass_flowing_sand:
+## Ciência da Computação
 
-##### Seção 33: Arquitetura de Computadores e Redes
+<!-- ##### Seção 33: Arquitetura de Computadores e Redes
 - [ ] 32.1 - Introdução - Ciência da Computação
 - [ ] 32.2 - Arquitetura de Computadores
 - [ ] 32.3 - Arquitetura de redes
