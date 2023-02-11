@@ -53,11 +53,11 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ##### Seção 7: [Higher Order Functions do JavaScript ES6](https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/Seção-08-high-order-functions-do-javascript-es6)
 - [ ] 7.1 - Introdução a Higher Order Functions
-- [ ] 7.1 - Higher Order Functions - sort e map
-- [ ] 7.2 - Higher Order Functions - filter e reduce
-- [ ] 7.3 - JavaScript ES6 - spread operator, rest parameters e object destructuring
-- [ ] 7.4 - JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e default parameters
-- [ ] 7.5 - Projeto - Zoo functions
+- [ ] 7.2 - Higher Order Functions - sort e map
+- [ ] 7.3 - Higher Order Functions - filter e reduce
+- [ ] 7.4 - JavaScript ES6 - spread operator, rest parameters e object destructuring
+- [ ] 7.5 - JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e default parameters
+- [ ] 7.6 - Projeto - Zoo functions
 
 
 ## Desenvolvimento Front-end
