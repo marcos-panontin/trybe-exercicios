@@ -1,6 +1,6 @@
 # Trybe - Exercícios
 
-Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/in/marcospanontin/)__ durante minha trajetória na [Trybe](https://www.betrybe.com/) :rocket:
+Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/in/marcospanontin/)__ durante minha trajetória na [Trybe](https://www.betrybe.com/) :rocket:.
 
 >"O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais."
 
@@ -59,7 +59,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [ ] 7.4 - JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e default parameters
 - [ ] 7.5 - Projeto - Zoo functions
 
-
+<!-- 
 ## Desenvolvimento Front-end
 
 ##### Seção 9: [JavaScript Assíncrono e Promises](https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/Seção-09-javascript-assincrono-e-promises)
@@ -243,4 +243,4 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [ ] 37.1 - Nó e Listas Encadeadas
 - [ ] 37.2 - Deque
 - [ ] 37.3 - Pilhas
-- [ ] 37.4 - Projeto - TING - Trybe Is Not Google
+- [ ] 37.4 - Projeto - TING - Trybe Is Not Google -->
