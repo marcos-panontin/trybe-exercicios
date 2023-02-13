@@ -61,186 +61,173 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 
 ## Desenvolvimento Front-end
-<!-- 
-##### Seção 9: [JavaScript Assíncrono e Promises](https://github.com/marcospanontin/trybe-exercicios/tree/master/02-front-end/Seção-09-javascript-assincrono-e-promises)
-- [ ] 9.1 - JavaScript Assíncrono e Callbacks
-- [ ] 9.2 - JavaScript Promises
-- [ ] 9.3 - Projeto - Carrinho de Compras
 
-##### Seção 10: [Testes automatizados com Jest](https://github.com/marcospanontin/trybe-exercicios/tree/master/02-front-end/Seção-10-testes-automatizados-com-jest)
-- [ ] 10.1 - Primeiros passos no Jest
-- [ ] 10.2 - Jest - Testes Assíncronos
-- [ ] 10.3 - Jest - Simulando comportamentos
-- [ ] 10.4 - Projeto - Jest Assíncrono e Mocking
+##### Seção 1: [1. Introdução ao Frontend e JavaScript assíncrono]()
+- [ ] 1.1 - Ambiente e desenvolvimento
+- [ ] 1.2 - JavaScript Promises
+- [ ] 1.3 - Prática - Cada de câmbio
+- [ ] 1.4 - Async, await e testes síncronos
+- [ ] 1.5 - Projeto - Carrinho de Compras
+
+##### Seção 2: [Introdução ao React]()
+- [ ] 2.1 - "Hello, world!" no react!
+- [ ] 2.2 - Componentes React
+- [ ] 2.3 - Projeto - Solar System
+
+##### Seção 3: [Componentes com Estado, Eventos e Formulários com React]()
+- [ ] 3.1 - Componentes com estado e eventos
+- [ ] 3.2 - Formulários no React
+- [ ] 3.3 - Projeto - Tryunfo
+
+##### Seção 4: [Ciclo de Vida de Componentes e React Router]()
+- [ ] 4.1 - Ciclo de vida de componentes
+- [ ] 4.2 - React Router
+- [ ] 4.3 - Projeto - TrybeTunes
+
+##### Seção 5: [Metodologias Ágeis]()
+- [ ] 5.1 - Metodologias Ágeis
+- [ ] 5.2 - Projeto - Frontend Online Store
+
+##### Seção 6: [Testes automatizados com React Testing Library]()
+- [ ] 6.1 - RTL - Primeiros passos
+- [ ] 6.2 - RTL - Mocks e Inputs
+- [ ] 6.3 - RTL - Testando React Router
+- [ ] 6.4 - Projeto - Testes em React
+
+##### Seção 7: [Gerenciamento de estado com Redux]()
+- [ ] 7.1 - Introdução ao Redux - O estado global da aplicação
+- [ ] 7.2 - Usando o Redux no React
+- [ ] 7.3 - Usando o Redux no React - Prática
+- [ ] 7.4 - Usando o Redux no React - Actions Assíncronas
+- [ ] 7.5 - Testes síncronos com React-Redux
+- [ ] 7.6 - Projeto - Trybe Wallet
+
+##### Seção 8: Projeto Jogo de Trivia
+- [ ] 8.1 - Projeto - Jogo de Trivia
+
+##### Seção 9: [Context API e React Hooks]()
+- [ ] 9.1 - React Hooks - useState e useContext
+- [ ] 9.2 - Context API do React
+- [ ] 9.3 - Custom Hooks 
+- [ ] 9.4 - Projeto - StarWars Datatable com Context API e Hooks
+
+##### Seção 10: Projeto App de Receitas
+- [ ] 10.1 - Projeto - App de Receitas -->
 
 
-##### Seção 11: [Introdução à React](https://github.com/marcospanontin/trybe-exercicios/tree/master/02-front-end/Seção-11-introducao-a-react)
-- [ ] 11.1 - Introdução - Front-end
-- [ ] 11.1 - Introdução - React
-- [ ] 11.1 - 'Hello, world!' no React!
-- [ ] 11.2 - Componentes React
-- [ ] 11.3 - Projeto - Movie Cards Library
+## Desenvolvimento Back-end :open_file_folder:
 
-##### Seção 12: [Componentes com Estado, Eventos e Formulários com React](https://github.com/marcospanontin/trybe-exercicios/tree/master/02-front-end/Seção-12-componentes-com-estado-eventos-e-formularios-com-react)
-- [ ] 12.1 - Componentes com estado e eventos
-- [ ] 12.2 - Formulários no React
-- [ ] 12.3 - Projeto - Movie Cards Library Stateful
+##### Seção 1: [Docker: utilizando containers]()
+- [ ] 1.1 - Utilizando Containers
+- [ ] 1.2 - Manipulando imagens no Docker
+- [ ] 1.3 - Orquestrando containers com Docker Compose
+- [ ] 1.4 - Projeto - Docker To-do-list
 
-##### Seção 13: [Ciclo de Vida de Componentes e React Router](https://github.com/marcospanontin/trybe-exercicios/tree/master/02-front-end/Seção-13-ciclo-de-vida-de-componentes-e-react-router)
-- [ ] 12.1 - Ciclo de vida de componentes
-- [ ] 12.2 - React Router
-- [ ] 12.3 - Projeto - Movie Cards Library CRUD
+##### Seção 2: [Introdução à SQL]()
+- [ ] 2.1 - Banco de dados SQL
+- [ ] 2.2 - Encontrando dados em um banco de dados
+- [ ] 2.3 - Filtrando dados de forma específica
+- [ ] 2.4 - Manipulando tabelas
+- [ ] 2.5 - Projeto - All For One
 
-##### Seção 14: [Metodologias Ágeis](https://github.com/marcospanontin/trybe-exercicios/tree/master/02-front-end/Seção-14-metodologias-ageis/dia-01-metodologias-ageis)
-- [ ] 13.1 - Metodologias Ágeis
-- [ ] 13.2 - Projeto - Frontend Online Store
+##### Seção 3: [Funções SQL, Joins e Normalização]()
+- [ ] 3.1 - Funções mais usadas no SQL
+- [ ] 3.2 - Descomplicando JOINs e UNIONs
+- [ ] 3.3 - Transformando ideias em um modelo de banco de dados
+- [ ] 3.4 - Projeto - One for all
 
-##### Seção 15: [Testes automatizados com React Testing Library](https://github.com/marcospanontin/trybe-exercicios/tree/master/02-front-end/Seção-15-testes-automatizados-com-react-testing-library)
-- [ ] 14.1 - RTL - Primeiros passos
-- [ ] 14.2 - RTL - Mocks e Inputs
-- [ ] 14.3 - RTL - Testando React Router
-- [ ] 14.4 - Projeto - Testes em React
+##### Seção 4: [Introdução ao desenvolvimento Web com NodeJS]()
+- [ ] 4.1 - Node.js - Runtime Assíncrono
+- [ ] 4.2 - Node.js - API REST com Express
+- [ ] 4.3 - Node.js - Testes de integração
+- [ ] 4.4 - Node.js - Express e Middlewares
+- [ ] 4.5 - Node.js - Express e MySQL
+- [ ] 4.6 - Projeto - Talker Manager
 
-##### Seção 16: [Gerenciamento de estado com Redux](https://github.com/marcospanontin/trybe-exercicios/tree/master/02-front-end/Seção-16-gerenciamento-de-estado-com-redux)
-- [ ] 15.1 - Introdução ao Redux - O estado global da aplicação
-- [ ] 15.2 - Usando o Redux no React
-- [ ] 15.3 - Usando o Redux no React - Prática
-- [ ] 15.4 - Usando o Redux no React - Actions Assíncronas
-- [ ] 15.5 - Testes síncronos com React-Redux
-- [ ] 15.6 - Projeto - Tabela com filtros de dados
+##### Seção 5: [Arquitetura de Software: Model, Service e Controller]()
+- [ ] 5.1 - Arquitetura de Software: Camada Model
+- [ ] 5.2 - Arquitetura de Software: Camada Service
+- [ ] 5.3 - Arquitetura de Software: Camada Controller
+- [ ] 5.4 - Projeto - Store Manager
 
-##### Seção 17: Projeto Jogo de Trivia
-- [ ] 16.1 - Projeto - Jogo de Trivia
+##### Seção 6: [Node.js: ORM e Autenticação]()
+- [ ] 6.1 - ORM - Interface de aplicação de banco de dados
+- [ ] 6.2 - ORM - Associations 1:1 e 1:N
+- [ ] 6.3 - ORM - Associations N:N e Transactions
+- [ ] 6.4- JWT - (JSON Web Token)
+- [ ] 6.5 - Projeto - Store API de blogs
 
-##### Seção 18: [Context API e React Hooks](https://github.com/marcospanontin/trybe-exercicios/tree/master/02-front-end/Seção-18-context-api-e-react-hooks)
-- [ ] 17.1 - Context API do React
-- [ ] 17.2 - React Hooks - useState e useContext
-- [ ] 17.3 - React Hooks - useEffect e Hooks customizados
-- [ ] 17.4 - Projeto - StarWars Datatable com Context API e Hooks
+##### Seção 7: [MASTERCLASS: Implantação de Aplicações na nuvem]()
+- [ ] 7.1 - Infraestrutura: Deploy com Railway
 
-##### Seção 19: Projeto App de Receitas
-- [ ] 19.1 - Projeto - App de Receitas -->
+##### Seção 8: [Introdução a TypeScript]()
+- [ ] 8.1 - Introdução ao TypeScript
+- [ ] 8.2 - Tipagem estática e Generics
+- [ ] 8.3 - Express com TypeScript
+- [ ] 8.4 - Projeto - Trybesmith
 
-## Desenvolvimento Back-end
-<!-- 
-##### Seção 20: [Introdução à SQL](https://github.com/marcospanontin/trybe-exercicios/tree/master/03-back-end/Seção-20-introducao-a-sql)
-- [ ] 20.1 - Introdução - Back-end
-- [ ] 20.1 - Introdução - Bancos de dados relacionais
-- [ ] 20.1 - Banco de dados SQL
-- [ ] 20.2 - Encontrando dados em um banco de dados
-- [ ] 20.3 - Filtrando dados de forma específica
-- [ ] 20.4 - Manipulando tabelas
-- [ ] 20.5 - Projeto - All For One
+##### Seção 9: [POO e SOLID]()
+- [ ] 9.1 - Introdução à Orientação a Objetos
+- [ ] 9.2 - Herança e Composição
+- [ ] 9.3 - Polimorfismo
+- [ ] 9.4- Princípios L e I
+- [ ] 9.5 - Projeto - Trybers and Dragons
 
-##### Seção 21: [Funções SQL, Joins e Subqueries](https://github.com/marcospanontin/trybe-exercicios/tree/master/03-back-end/Seção-21-funcoes-sql-joins-e-subqueries)
-- [ ] 21.1 - Funções mais usadas no SQL
-- [ ] 21.2 - Descomplicando JOINs e UNIONs
-- [ ] 21.3 - Stored Routines & Subqueries
-- [ ] 21.4 - Projeto - Vocabulary Booster
+##### Seção 10: [Projeto - TFC]()
+- [ ] 10.1 - Projeto - TFC - Trybe Futebol Clube
 
-##### Seção 22: [Normalização e Modelagem de Banco de Dados](https://github.com/marcospanontin/trybe-exercicios/tree/master/03-back-end/Seção-22-normalizacao-e-modelagem-de-banco-de-dados)
-- [ ] 22.1 - Transformando ideias em um modelo de banco de dados
-- [ ] 22.2 - Normalização, Formas Normais e Dumps
-- [ ] 22.3 - Transformando ideias em um modelo de banco de dados - Parte 2
-- [ ] 22.4 - Projeto - One For All
+##### Seção 11: [Introdução ao MongoDB]()
+- [ ] 11.1 - MongoDB - Introdução
+- [ ] 11.2 - Filter Operators
+- [ ] 11.3 - Operadores de consulta
+- [ ] 11.4 - Updates Simples
+- [ ] 11.5 - Updates Complexos - Arrays
+- [ ] 11.6 - Projeto - Commerce
 
-##### Seção 23: [Introdução ao MongoDB](https://github.com/marcospanontin/trybe-exercicios/tree/master/03-back-end/Seção-23-introducao-ao-mongodb)
-- [ ] 22.1 - Introdução - NoSQL
-- [ ] 22.1 - MongoDB - Introdução
-- [ ] 22.2 - Filter Operators
-- [ ] 22.3 - Projeto - Data Flights
+##### Seção 12: [APIs OO e NoSQL]()
+- [ ] 12.1 - APIs OO e NoSQL: POO e ODMs
+- [ ] 12.2 - APIs OO e NoSQL: Herança e Abstração
+- [ ] 12.3 - Projeto - Car Shop
 
-##### Seção 24: [MongoDB: Updates Simples e Complexos](https://github.com/marcospanontin/trybe-exercicios/tree/master/03-back-end/Seção-24-mongodb-updates-simples-e-complexos)
-- [ ] 23.1 - Updates Simples
-- [ ] 23.2 - Updates Complexos - Arrays - Parte 1
-- [ ] 23.3 - Updates Complexos - Arrays - Parte 2
-- [ ] 23.4 - Projeto - Commerce
+##### Seção 13: [App de Delivery]()
+- [ ] 13.1 - Projeto - App de Delivery
 
-##### Seção 25: [MongoDB: Aggregation Framework](https://github.com/marcospanontin/trybe-exercicios/tree/master/03-back-end/Seção-25-mongodb-aggregation-framework)
-- [ ] 24.1 - Aggregation Framework - Parte 1
-- [ ] 24.2 - Aggregation Framework - Parte 2
-- [ ] 24.3 - Projeto - Aggregations
 
-##### Seção 26: [Introdução ao desenvolvimento Web com NodeJS](https://github.com/marcospanontin/trybe-exercicios/tree/master/03-back-end/Seção-26-introducao-ao-desenvolvimento-web-com-nodejs)
-- [ ] 25.1 - Intro - NodeJS
-- [ ] 25.1 - NodeJS - Introdução
-- [ ] 25.2 - NodeJS - Fluxo Assíncrono
-- [ ] 25.3 - Testes com NodeJS
-- [ ] 25.4 - Express: HTTP com Node.js
-- [ ] 25.5 - Praticando Express
-- [ ] 25.6 - Projeto - Talker manager
+## Ciência da Computação :computer:
 
-##### Seção 27: [NodeJS: Camada de Serviço e Arquitetura Rest e Restful](https://github.com/marcospanontin/trybe-exercicios/tree/master/03-back-end/Seção-27-nodejs-camada-de-servico-e-arquitetura-rest-e-restful)
-- [ ] 26.1 - Introdução - Arquitetura de Software
-- [ ] 26.1 - Arquitetura de Software - Camada de Model
-- [ ] 26.2 - Arquitetura de Software - Camada de Controller e Service
-- [ ] 26.3 - Arquitetura Web - Rest e Restful
-- [ ] 26.4 - Arquitetura de Software - Testando as Camadas
-- [ ] 26.5 - Projeto - Store Manager
+##### Seção 1: [Introdução à Python]() 
+- [ ] 1.1 - Aprendendo Python
+- [ ] 1.2 - Entrada e Saída de dados
+- [ ] 1.3 - Testes
+- [ ] 1.4 - Projeto - Job Insights
 
-##### Seção 28: [Autenticação e Upload de Arquivos](https://github.com/marcospanontin/trybe-exercicios/tree/master/03-back-end/Seção-28-autenticacao-e-upload-de-arquivos)
-- [ ] 27.1 - NodeJS - JWT - (JSON Web Token)
-- [ ] 27.2 - NodeJS - Upload de arquivos com Multer
-- [ ] 27.3 - NodeJS - Testando APIs com Testes de Integração
-- [ ] 27.4 - Projeto - Cookmaster
+##### Seção 2: [Padrões de Projeto]()
+- [ ] 1.1 - POO em Python
+- [ ] 1.2 - Padrões - Iterator, Adapter, Strategy
+- [ ] 1.3 - Decorator, Observer, Factory
+- [ ] 1.4 - Projeto - Relatórios de Estoque
 
-##### Seção 29: [Deployment](https://github.com/marcospanontin/trybe-exercicios/tree/master/03-back-end/Seção-29-deployment)
-- [ ] 29.1 - Introdução - Deploy
-- [ ] 29.1 - Infraestrutura - Deploy com Heroku
-- [ ] 29.2 - Deploy - Gerenciadores de Processos
-- [ ] 29.3 - Projeto - Stranger Things
+##### Seção 3: [Raspagem de dados]()
+- [ ] 3.1 - Raspagem de dados
+- [ ] 3.2 - Outras ferramentas de raspagem de dados
+- [ ] 3.4 - Crawlers + POO
+- [ ] 3.4 - Projeto - Tech news
 
-##### Seção 30: Arquitetura: SOLID e ORM
-- [ ] 30.1 - Arquitetura - Princípios SOLID
-- [ ] 30.2 - ORM - Interface da aplicação com o banco de dados
-- [ ] 30.3 - ORM - Associations
-- [ ] 30.4 - Boas práticas na escrita de testes
-- [ ] 30.5 - Projeto - API de Blogs
+##### Seção 4: [Algoritmos]()
+- [ ] 4.1 - Complexidade de Algoritmos
+- [ ] 4.2 - Recursividade e Estratégias para solução de problemas
+- [ ] 4.3 - Algoritmos de ordenação e busca
+- [ ] 4.4 - Projeto - Algoritmos
 
-##### Seção 31: Sockets
-- [ ] 31.1 - Sockets - TCP/UDP & NET
-- [ ] 31.2 - Sockets - Socket.io
-- [ ] 31.3 - Projeto - Webchat
+##### Seção 5: [Estrutura de Dados I: Arrays, listas, filas e pilhas]()
 
-##### Seção 32: Projeto Trybeer II
-- [ ] 32.1 - Projeto - Trybeer v2 -->
+- [ ] 5.1 - Arquitetura de Computadores
+- [ ] 5.2 - Arrays
+- [ ] 5.3 - Nó e listas encadeadas
+- [ ] 5.4 - Pilhas e filas
+- [ ] 5.5 - Projeto - TING - Trybe Is Not Google -->
 
-## Ciência da Computação
-
-<!-- ##### Seção 33: Arquitetura de Computadores e Redes
-- [ ] 32.1 - Introdução - Ciência da Computação
-- [ ] 32.2 - Arquitetura de Computadores
-- [ ] 32.3 - Arquitetura de redes
-- [ ] 32.4 - Redes de computadores, ferramentas e segurança
-- [ ] 32.5 - Projeto - Explorando os protocolos
-
-##### Seção 34: Introdução à Python e Raspagem de Dados da Web
-- [ ] 33.1 - Aprendendo Python
-- [ ] 33.2 - Entrada e Saída de dados
-- [ ] 33.3 - Raspagem de Dados
-- [ ] 33.4 - Testes
-- [ ] 33.5 - Projeto - Tech news
-
-##### Seção 35: Programação Orientada a Objetos e Padrões de Projeto
-- [ ] 34.1 - Introdução à programação orientada a objetos
-- [ ] 34.2 - Herança, Composição e Interfaces
-- [ ] 34.3 - Padrões de projeto
-- [ ] 34.4 - Projeto - Relatórios de Estoque
-
-##### Seção 36: Algoritmos e Estrutura de Dados
-- [ ] 35.1 - Complexidade de Algoritmos
-- [ ] 35.2 - Recursividade e Estratégias para solução de problemas
-- [ ] 35.3 - Algoritmos de ordenação e busca
-- [ ] 35.4 - Projeto - Algoritmos
-
-##### Seção 37: Estrutura de Dados: Hash e Set
-- [ ] 36.1 - Arrays
-- [ ] 36.2 - Hashmap e Dict
-- [ ] 36.3 - Set
-- [ ] 36.4 - Projeto - Restaurant Orders
-
-##### Seção 38: Estrutura de Dados: Pilhas, Filas e Listas
-- [ ] 37.1 - Nó e Listas Encadeadas
-- [ ] 37.2 - Deque
-- [ ] 37.3 - Pilhas
-- [ ] 37.4 - Projeto - TING - Trybe Is Not Google -->
+##### Seção 6: [Estrutura de Dados II: Hashmaps e Set]()
+- [ ] 6.1 - Hashmap e Dict
+- [ ] 6.2 - Set
+- [ ] 6.3 - Projeto - Restaurant Orders
