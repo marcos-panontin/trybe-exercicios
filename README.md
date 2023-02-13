@@ -62,7 +62,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ## Desenvolvimento Front-end
 
-##### Seção 1: [1. Introdução ao Frontend e JavaScript assíncrono]()
+##### Seção 1: [Introdução ao Frontend e JavaScript assíncrono]()
 - [ ] 1.1 - Ambiente e desenvolvimento
 - [ ] 1.2 - JavaScript Promises
 - [ ] 1.3 - Prática - Cada de câmbio
