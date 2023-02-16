@@ -1,0 +1,64 @@
+div:hover {
+  border: 2px solid black;
+}
+
+div:nth-child(3) {
+  background-color: blue;
+}
+
+div:nth-child(3) h3 {
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 8px;
+
+}
+
+div:nth-child(4) {
+  background-color: green;
+}
+
+div:nth-child(4) h3 {
+  color: yellow;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+
+}
+
+div:nth-child(5) {
+  background-color: orange;
+  height: 100px;
+}
+
+div:nth-child(5) h3 {
+  color: blueviolet;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    font-size: 43px;
+
+}
+
+div:nth-child(6) {
+  background-color: brown;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+div:nth-child(6) h3 {
+  color: grey;
+  font-family: monospace;
+  font-size: 14px;
+}
+
+div:nth-child(7) {
+  background-color: yellow;
+}
+
+div:nth-child(7) h3 {
+  color: darkred;
+  font-family: monospace;
+  font-size: 24px;
+}
+
+div:nth-child(odd) {
+  font-style: italic;
+}

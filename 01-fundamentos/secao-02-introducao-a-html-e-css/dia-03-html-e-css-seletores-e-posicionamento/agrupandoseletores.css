@@ -1,0 +1,20 @@
+h1, p {
+    text-align: center;
+}
+li {
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: tomato;
+}
+
+li:active {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    transition: 3s;
+}
+
+ol, ul {
+    list-style: none;
+}
