@@ -247,7 +247,8 @@ for (let num = 2; num <= 50; num++) {
         } 
 
     }
-        console.log(num + isPrime);
+        console.log(num );
+        console.log(isPrime);
 
 
 }
