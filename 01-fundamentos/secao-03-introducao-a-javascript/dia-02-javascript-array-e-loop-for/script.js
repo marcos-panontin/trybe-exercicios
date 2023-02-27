@@ -58,7 +58,6 @@
 
 // console.log("BINGO" + " d1: " + d1 + " d2: " + d2)
 
-
 // let fruits = [3, 4, 10, 1, 12];
 // let soma = 0;
 
@@ -73,11 +72,9 @@
 //     console.log("VALOR MENOR QUE 16")
 // }
 
-
 // let numbers = [1, 2, 3];
 // console.log(numbers.length)
 // const xablau = numbers.indexOf("trybe");
-
 
 // let n = ?;
 
@@ -94,17 +91,16 @@
 // index = 4 | 94 - 4 =  90
 // index = 5 | 90 - 5 = 85
 
-
 /////////// EXERCÍCIOS PÓS-AULA
 
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let sum = 0;
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// let sum = 0;
 
-for (let item of numbers) {
-    sum += item;
-}
+// for (let item of numbers) {
+//     sum += item;
+// }
 
-const average = sum / numbers.length;
+// const average = sum / numbers.length;
 
 // console.log(average)
 
@@ -159,7 +155,6 @@ const average = sum / numbers.length;
 // }
 // console.log(smallestNumberApartFromZero);
 
-
 // Utilizando for, crie um array que vá de 1 a 25 e imprima o resultado.
 
 // let novaArray = [];
@@ -174,17 +169,85 @@ const average = sum / numbers.length;
 //     console.log(number / 2)
 // }
 
-
 //O fatorial é a multiplicação de um número natural pelos seus antecessores, exceto o zero. Por exemplo:
 // Copiar
 // O fatorial é representado pelo sinal !
 // 4! = 4 x 3 x 2 x 1 = 24
 // Com base nessas informações, crie um algoritmo que imprima na tela o fatorial de 10.
 
-let number = 9;
-let result = number;
+// let number = 9;
+// let result = number;
 
-for (let multiplier = number - 1; multiplier >= 1; multiplier -= 1) {
-    result = result * multiplier;
+// for (let multiplier = number - 1; multiplier >= 1; multiplier -= 1) {
+//     result = result * multiplier;
+// }
+// console.log(result)
+
+// let numbers2 = [5, 9, 3, 19, 70, 8, 100, 7, 35, 27, 1, 25000];
+// let smallestNumber;
+// for (let cont = 0; cont <= numbers2.length; cont++) {
+//     if (cont === 0) {
+//         smallestNumber = numbers2[cont];
+//     } else if (smallestNumber > numbers2[cont]) {
+//         smallestNumber = numbers2[cont];
+//     }
+// }
+// console.log("O menor numero do array é: " + smallestNumber);
+
+// Utilize a estrutura de repetição for para desenvolver um algoritmo que seja capaz de inverter uma palavra, como a palavra “banana” para “ananab”. Utilize a string abaixo como exemplo. Depois, troque-a por outras para verificar se seu algoritmo está funcionando corretamente.
+// Copiar
+// let word = 'Metida';
+// let palyndrome = '';
+
+// for (let letter of word) {
+
+// }
+
+// for (let index = word.length -1; index >= 0; index--) {
+//     palyndrome += word[index];
+// }
+
+//     console.log(palyndrome);
+
+//     Considere o array de strings abaixo:
+// // Copiar
+// let array = ["java", "javascript", "python", "html", "css"];
+// // Utilize a estrutura de repetição for para escrever dois algoritmos: um que imprima no console a  maior palavra desse array e outro que imprima a menor. Considere o número de caracteres de cada palavra.
+
+// let largestWord = "";
+
+// for (const word of array) {
+//     if (word.length > largestWord.length) {
+//         largestWord = word;
+//     }
+// }
+
+// let smallestWord = array[0];
+
+// for (let item of array) {
+//     if (item.length < smallestWord.length) {
+//         smallestWord = item;
+//     }
+// }
+
+// console.log("Largest Word in the array is: " + largestWord);
+// console.log("Smallest Word in the array is: " + smallestWord);
+
+
+// Um número primo é um número inteiro maior que 1 que possui somente dois divisores, ou seja, é divisível por 1 e por ele mesmo. Sabendo disso, escreva um algoritmo que imprima no console o maior número primo entre 2 e 50.
+
+let primosArray = [];
+for (let num = 2; num <= 50; num++) {
+    let isPrime = true
+
+    for (let divisor = num; divisor >= 1; divisor -= 1){
+        // console.log("num: " + num + "/ divisor: " + divisor + (num % divisor === 0));
+        if (num % divisor === 0 && divisor !== num && divisor !== 1) {
+            isPrime = false
+        } 
+
+    }
+        console.log(num + isPrime);
+
+
 }
-console.log(result)
