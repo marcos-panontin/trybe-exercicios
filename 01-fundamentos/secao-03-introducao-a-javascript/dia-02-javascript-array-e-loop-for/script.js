@@ -114,21 +114,77 @@ const average = sum / numbers.length;
 //     console.log("Média menor ou igual a 20")
 // }
 
-let largestNumber = 0;
+// let largestNumber = 0;
 
-for (let item of numbers) {
-    if (item > largestNumber) {
-        largestNumber = item;
-    }
+// for (let item of numbers) {
+//     if (item > largestNumber) {
+//         largestNumber = item;
+//     }
+// }
+
+// // console.log(largestNumber);
+
+// let oddNumbersQuantity = 0;
+
+// for (let item of numbers) {
+//     if (item % 2 !== 0) {
+//         oddNumbersQuantity += 1
+//     }
+// }
+
+// if (oddNumbersQuantity === 0) {
+//     console.log("There aren't any odd numbers in the Numbers array")
+// } else {
+//         console.log("There are " + oddNumbersQuantity + " odd numbers in the Numbers array");
+
+// }
+
+// let smallestNumber;
+
+// for (let item of numbers) {
+//     if (item < smallestNumber) {
+//         smallestNumber = item;
+//     }
+// }
+// console.log(smallestNumber)
+
+// // achando o menor número maior que ZERO
+
+// let smallestNumberApartFromZero = 100000;
+
+// for (let item of numbers) {
+//     if (item != 0 && item < smallestNumberApartFromZero) {
+//         smallestNumberApartFromZero = item;
+//     }
+// }
+// console.log(smallestNumberApartFromZero);
+
+
+// Utilizando for, crie um array que vá de 1 a 25 e imprima o resultado.
+
+// let novaArray = [];
+// for (let i = 1; i <= 25; i += 1){
+//     novaArray.push(i)
+// }
+// console.log(novaArray)
+
+// // Utilizando o array que acabou de criar, imprima o resultado da divisão de cada um dos elementos por 2.
+
+// for (let number of novaArray) {
+//     console.log(number / 2)
+// }
+
+
+//O fatorial é a multiplicação de um número natural pelos seus antecessores, exceto o zero. Por exemplo:
+// Copiar
+// O fatorial é representado pelo sinal !
+// 4! = 4 x 3 x 2 x 1 = 24
+// Com base nessas informações, crie um algoritmo que imprima na tela o fatorial de 10.
+
+let number = 9;
+let result = number;
+
+for (let multiplier = number - 1; multiplier >= 1; multiplier -= 1) {
+    result = result * multiplier;
 }
-
-// console.log(largestNumber);
-
-let oddNumbersQuantity = 0;
-
-for (let item of numbers) {
-    if (item % 2 !== 0) {
-        oddNumbersQuantity += 1
-    }
-}
-console.log(oddNumbersQuantity)
+console.log(result)
