@@ -300,17 +300,20 @@
 
 // Ordene o array numbers em ordem crescente e imprima seus valores.
 
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27, 1, 9876, 134];
 
-// TENTATIVA COM FOR LOOP
+// TENTATIVA COM FOR LOOP - SUCESSO, GRAZADEUS
 
-for (let i = 0; i < numbers.length; i += 1){
-
-    for (let j = 1; j < numbers.length; j += 1) {
-
+    for (let j = 0; j < numbers.length; j += 1) {
+        if (numbers[j] > numbers[j + 1]) {
+            const firstNumber = numbers[j];
+            const secondNumber = numbers[j + 1];
+            numbers[j] = secondNumber;
+            numbers[j + 1] = firstNumber; 
+        }
     }
-        
-}
+
+console.log(numbers);
 
 // TENTATIVA COM FOR OF (NÃO DEU CERTO)
 // for (let number of numbers) {
@@ -326,7 +329,7 @@ for (let i = 0; i < numbers.length; i += 1){
 //     }
 // }
 
-console.log(numbers);
+
 
 // Ordene o array numbers em ordem decrescente e imprima seus valores.
 
