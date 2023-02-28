@@ -261,7 +261,6 @@
 
 // console.log(largestPrimeNumber);
 
-
 /// JEITO ALTERNATIVO DE CRIAR ARRAY DE NÚMEROS PRIMOS
 
 // let primeNumbersArray = [];
@@ -294,26 +293,24 @@
 
 // console.log(primeNumbersArray);
 
-
 /////Exercícios - Bônus - Ordenação Bubble Sort
-
 
 // Ordene o array numbers em ordem crescente e imprima seus valores.
 
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27, 1, 9876, 134];
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27, 1, 9876, 134];
 
-// TENTATIVA COM FOR LOOP - SUCESSO, GRAZADEUS
+// // TENTATIVA COM FOR LOOP - SUCESSO, GRAZADEUS
 
-    for (let j = 0; j < numbers.length; j += 1) {
-        if (numbers[j] > numbers[j + 1]) {
-            const firstNumber = numbers[j];
-            const secondNumber = numbers[j + 1];
-            numbers[j] = secondNumber;
-            numbers[j + 1] = firstNumber; 
-        }
-    }
+// for (let j = 0; j < numbers.length; j += 1) {
+//     if (numbers[j] > numbers[j + 1]) {
+//         const firstNumber = numbers[j];
+//         const secondNumber = numbers[j + 1];
+//         numbers[j] = secondNumber;
+//         numbers[j + 1] = firstNumber;
+//     }
+// }
 
-console.log(numbers);
+// console.log(numbers);
 
 // TENTATIVA COM FOR OF (NÃO DEU CERTO)
 // for (let number of numbers) {
@@ -329,11 +326,23 @@ console.log(numbers);
 //     }
 // }
 
+// Ordene o array numbers em ordem decrescente e imprima seus valores. // TENTANDO USANDO UM FOR OF LOOP
 
+let numbers = [5, 9, 3, 19, 70, 8];
 
-// Ordene o array numbers em ordem decrescente e imprima seus valores.
+for (let index = 0; index < numbers.length; index +=1) {
 
+    for (let secondIndex = 1; secondIndex < numbers.length; secondIndex += 1){
+    if (numbers[index] > numbers[secondIndex]) {
+        const previousLeftNumber = numbers[index];
+        const previousRightNumber = numbers[secondIndex];
+        numbers[index] = previousRightNumber;
+        numbers[secondIndex] = previousLeftNumber;
+    }
+    }
+}
+
+console.log(numbers);
 
 
 // Agora, crie um novo array a partir do array numbers, sem perdê-lo. Cada valor do novo array deverá ser igual ao valor correspondente no array numbers multiplicado pelo seguinte. Por exemplo: o primeiro valor do novo array deverá ser 45, pois é a multiplicação de 5 (primeiro valor) e 9 (valor seguinte). Já o segundo valor do novo array deverá ser 27, pois é a multiplicação de 9 (segundo valor) e 3 (valor seguinte), e assim por diante. Caso não haja valor seguinte, a multiplicação deverá ser feita por 2. Faça isso utilizando o for e o método push. O resultado deve ser o array abaixo:
-
