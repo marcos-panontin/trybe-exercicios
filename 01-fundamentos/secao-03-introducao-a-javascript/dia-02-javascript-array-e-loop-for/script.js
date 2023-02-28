@@ -233,22 +233,104 @@
 // console.log("Largest Word in the array is: " + largestWord);
 // console.log("Smallest Word in the array is: " + smallestWord);
 
-
 // Um número primo é um número inteiro maior que 1 que possui somente dois divisores, ou seja, é divisível por 1 e por ele mesmo. Sabendo disso, escreva um algoritmo que imprima no console o maior número primo entre 2 e 50.
 
-let primosArray = [];
-for (let num = 2; num <= 50; num++) {
-    let isPrime = true
+// let primosArray = [];
+// for (let num = 2; num <= 50; num++) {
+//     primosArray.push(num);
+//     let isPrime = true;
 
-    for (let divisor = num; divisor >= 1; divisor -= 1){
-        // console.log("num: " + num + "/ divisor: " + divisor + (num % divisor === 0));
-        if (num % divisor === 0 && divisor !== num && divisor !== 1) {
-            isPrime = false
-        } 
+//     for (let divisor = num; divisor >= 1; divisor -= 1) {
+//         if (num % divisor === 0 && divisor !== num && divisor !== 1) {
+//             isPrime = false;
+//             let index = primosArray.indexOf(num);
+//             if (index !== -1) {
+//                 primosArray.splice(index, 1);
+//             }
+//         }
+//     }
+// }
+
+// let largestPrimeNumber = 0;
+
+// for (const number of primosArray) {
+//     if (number > largestPrimeNumber) {
+//         largestPrimeNumber = number;
+//     }
+// }
+
+// console.log(largestPrimeNumber);
+
+
+/// JEITO ALTERNATIVO DE CRIAR ARRAY DE NÚMEROS PRIMOS
+
+// let primeNumbersArray = [];
+
+// for (let numberToCheck = 2; numberToCheck < 30; numberToCheck += 1){
+//     let divisors = 1;
+
+//     for (let number = 2; number <= numberToCheck; number += 1) {
+//         if (numberToCheck % number === 0) divisors += 1;
+//     }
+
+//     if (divisors === 2) {
+//         primeNumbersArray.push(numberToCheck);
+//         console.log(
+//             numberToCheck +
+//             " é primo pois possui exatamente " +
+//             divisors +
+//             " divisores."
+//         );
+//     }
+//     else {
+//         console.log(
+//             numberToCheck +
+//             " não é primo pois possui " +
+//             divisors +
+//             " divisores."
+//         );
+//     }
+// }
+
+// console.log(primeNumbersArray);
+
+
+/////Exercícios - Bônus - Ordenação Bubble Sort
+
+
+// Ordene o array numbers em ordem crescente e imprima seus valores.
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+// TENTATIVA COM FOR LOOP
+
+for (let i = 0; i < numbers.length; i += 1){
+
+    for (let j = 1; j < numbers.length; j += 1) {
 
     }
-        console.log(num );
-        console.log(isPrime);
-
-
+        
 }
+
+// TENTATIVA COM FOR OF (NÃO DEU CERTO)
+// for (let number of numbers) {
+//     let indexOfNumber = numbers.indexOf(number);
+
+//     for (let number2 of numbers) {
+//             let indexOfNumber2 = numbers.indexOf(number2);
+
+//         if (number2 < number) {
+//             numbers[indexOfNumber] = number2;
+//             numbers[indexOfNumber2] = number;
+//         }
+//     }
+// }
+
+console.log(numbers);
+
+// Ordene o array numbers em ordem decrescente e imprima seus valores.
+
+
+
+// Agora, crie um novo array a partir do array numbers, sem perdê-lo. Cada valor do novo array deverá ser igual ao valor correspondente no array numbers multiplicado pelo seguinte. Por exemplo: o primeiro valor do novo array deverá ser 45, pois é a multiplicação de 5 (primeiro valor) e 9 (valor seguinte). Já o segundo valor do novo array deverá ser 27, pois é a multiplicação de 9 (segundo valor) e 3 (valor seguinte), e assim por diante. Caso não haja valor seguinte, a multiplicação deverá ser feita por 2. Faça isso utilizando o for e o método push. O resultado deve ser o array abaixo:
+
