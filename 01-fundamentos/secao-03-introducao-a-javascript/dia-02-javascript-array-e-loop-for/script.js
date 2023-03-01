@@ -175,13 +175,13 @@
 // 4! = 4 x 3 x 2 x 1 = 24
 // Com base nessas informações, crie um algoritmo que imprima na tela o fatorial de 10.
 
-// let number = 9;
-// let result = number;
+let number = 10;
+let result = number;
 
-// for (let multiplier = number - 1; multiplier >= 1; multiplier -= 1) {
-//     result = result * multiplier;
-// }
-// console.log(result)
+for (let multiplier = number - 1; multiplier >= 1; multiplier -= 1) {
+    result = result * multiplier;
+}
+console.log(result)
 
 // let numbers2 = [5, 9, 3, 19, 70, 8, 100, 7, 35, 27, 1, 25000];
 // let smallestNumber;
@@ -199,9 +199,6 @@
 // let word = 'Metida';
 // let palyndrome = '';
 
-// for (let letter of word) {
-
-// }
 
 // for (let index = word.length -1; index >= 0; index--) {
 //     palyndrome += word[index];
