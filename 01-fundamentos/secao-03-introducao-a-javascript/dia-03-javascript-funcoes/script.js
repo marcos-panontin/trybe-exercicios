@@ -41,24 +41,65 @@ function addClients(clientName) {
 }
 
 addClients("Clark");
+addClients("Jack");
+
 console.log(clientesTrybeBank);
 
 //Agora iremos escrever um programa que irá excluir um(a) cliente já existente do array de clientes do TrybeBank. Certifique-se de que a função deve receber um parâmetro do tipo string e imprimir uma mensagem de erro, caso o parâmetro não seja do tipo string e caso o(a) cliente não exista dentro do array.
 
+// COMENTADO POIS ESSA FUNÇÃO SERÁ REFATORADA EM FUNÇÕES MENORES, LOGO ABAIXO
+
+// function removeClients(clientName) {
+//     if (typeof clientName === "string") {
+//         if (clientesTrybeBank.includes(clientName)) {
+//             let clientIndex = clientesTrybeBank.indexOf(clientName);
+//             clientesTrybeBank.splice(clientIndex, 1);
+//             return 'O cliente ' + clientName + " foi excluído com sucesso do sistema.";
+//         } else {
+//             return "Cliente não está no banco de dados!";
+//         }
+//     }
+//     else {
+//         return "Insira um nome válido.";
+//     }
+// }
+
+// console.log(removeClients("Clark"));
+
+// console.log(removeClients("Jack"));
+
+// console.log(removeClients(4));
+
+
+//Refatore a função removeCliente para diminuir sua complexidade e quebrá-la em funções menores.
+
+function checkIfClientExists(clientName) {
+    if (clientesTrybeBank.includes(clientName)) {
+        let clientIndex = clientesTrybeBank.indexOf(clientName);
+        clientesTrybeBank.splice(clientIndex, 1);
+        return (
+            "O cliente " + clientName + " foi excluído com sucesso do sistema."
+        );
+    } else {
+        return "Cliente não está no banco de dados!";
+    }
+}
+
+function checkIfInputIsString(clientName) {
+    if (typeof clientName === "string") {
+        return true
+    } else {
+        return false
+    }
+}
 
 function removeClients(clientName) {
-    if (typeof clientName === "string") {
-        if (clientesTrybeBank.includes(clientName)) {
-            let clientIndex = clientesTrybeBank.indexOf(clientName);
-            clientesTrybeBank.splice(clientIndex, 1);
-            return 'O cliente ' + clientName + " foi excluído com sucesso do sistema.";
-        } else {
-            return "Cliente não está no banco de dados!";
-        }
-    }
-    else {
+    if (!checkIfInputIsString(clientName)) {
         return "Insira um nome válido.";
+    } else {
+    return checkIfClientExists(clientName);
     }
+
 }
 
 console.log(removeClients("Clark"));
