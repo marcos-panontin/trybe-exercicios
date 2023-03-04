@@ -282,8 +282,7 @@ function calculatingSum(arabicArray) {
   for (let index = 0; index < arabicArray.length; index += 1) {
       if (arabicArray[index] < arabicArray[index + 1]) {
           sum -= arabicArray[index];
-      } else if (
-          arabicArray[index] >= arabicArray[index + 1] || index === arabicArray.length - 1) {
+      } else if (arabicArray[index] >= arabicArray[index + 1] || index === arabicArray.length - 1) {
           sum += arabicArray[index];
       }
   }
@@ -291,3 +290,161 @@ function calculatingSum(arabicArray) {
 }
 
 // console.log(calculatingSum(romanToArabic("ID")));
+
+
+// //Exercício 2
+// Crie uma função chamada arrayOfNumbers, que receberá a variável vector como parâmetro.
+
+// Por meio de um loop for, percorra essa variável, busque os números pares e os adicione a um novo array, que deverá ser retornado pela função no fim.
+
+let vector = [
+    [1, 2],
+    [3, 4, 5, 6],
+    [7, 8, 9, 10],
+];
+
+function arrayOfNumbers(vector) {
+  const evenNumbersArray = [];
+  for (let array of vector) {
+    for (let item of array) {
+      item % 2 === 0 && evenNumbersArray.push(item);
+    }
+  }
+  return evenNumbersArray;  
+}
+
+// console.log(arrayOfNumbers(vector));
+
+
+// //🚀 Exercício 3
+// Por meio do array de frutas basket, retorne um objeto que contenha o nome da fruta como chave e a quantidade de vezes que ela aparece no array como valor. Por exemplo, o array [‘Melancia’, ‘Abacate’, ‘Melancia’, ‘Melancia’, ‘Uva’] deverá retornar { Melancia: 3, Abacate: 1, Uva: 1 } quando passado como argumento para a função.
+
+// Em seguida, imprima esse resultado na tela com uma mensagem no seguinte formato: Sua cesta possui: x Melancias, x Abacates...
+
+let basket = [
+    "Melancia",
+    "Abacate",
+    "Melancia",
+    "Melancia",
+    "Uva",
+    "Laranja",
+    "Jaca",
+    "Pera",
+    "Melancia",
+    "Uva",
+    "Laranja",
+    "Melancia",
+    "Banana",
+    "Uva",
+    "Pera",
+    "Abacate",
+    "Laranja",
+    "Abacate",
+    "Banana",
+    "Melancia",
+    "Laranja",
+    "Laranja",
+    "Jaca",
+    "Uva",
+    "Banana",
+    "Uva",
+    "Laranja",
+    "Pera",
+    "Melancia",
+    "Uva",
+    "Jaca",
+    "Banana",
+    "Pera",
+    "Abacate",
+    "Melancia",
+    "Melancia",
+    "Laranja",
+    "Pera",
+    "Banana",
+    "Jaca",
+    "Laranja",
+    "Melancia",
+    "Abacate",
+    "Abacate",
+    "Pera",
+    "Melancia",
+    "Banana",
+    "Banana",
+    "Abacate",
+    "Uva",
+    "Laranja",
+    "Banana",
+    "Abacate",
+    "Uva",
+    "Uva",
+    "Abacate",
+    "Abacate",
+    "Melancia",
+    "Uva",
+    "Jaca",
+    "Uva",
+    "Banana",
+    "Abacate",
+    "Banana",
+    "Uva",
+    "Banana",
+    "Laranja",
+    "Laranja",
+    "Jaca",
+    "Jaca",
+    "Abacate",
+    "Jaca",
+    "Laranja",
+    "Melancia",
+    "Pera",
+    "Jaca",
+    "Melancia",
+    "Uva",
+    "Abacate",
+    "Jaca",
+    "Jaca",
+    "Abacate",
+    "Uva",
+    "Laranja",
+    "Pera",
+    "Melancia",
+    "Jaca",
+    "Pera",
+    "Laranja",
+    "Jaca",
+    "Pera",
+    "Melancia",
+    "Jaca",
+    "Banana",
+    "Laranja",
+    "Jaca",
+    "Banana",
+    "Pera",
+    "Abacate",
+    "Uva",
+];
+
+const fruitsCount = {};
+
+function count(list, countObject) {
+
+    for (let item of list) {
+      if (!Object.keys(countObject).includes(item)) {
+          countObject[item] = 1;
+      } else {
+          countObject[item] += 1;
+      }
+  }
+
+}
+count(basket, fruitsCount)
+
+const keysArray = Object.keys(fruitsCount);
+const valuesArray = Object.values(fruitsCount);
+
+let message = '';
+for (let index = 0; index < keysArray.length; index += 1) {
+  message += `${valuesArray[index]} ${keysArray[index]}s, `
+}
+  
+console.log('Sua cesta possui: ' + message);
