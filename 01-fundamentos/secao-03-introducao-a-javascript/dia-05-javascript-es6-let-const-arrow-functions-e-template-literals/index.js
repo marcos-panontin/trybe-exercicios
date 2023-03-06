@@ -277,7 +277,8 @@ function romanToArabic(string) {
     })
 }
 
-function calculatingSum(arabicArray) {
+function calculatingSum(string) {
+const arabicArray = romanToArabic(string);
   let sum = 0;
   for (let index = 0; index < arabicArray.length; index += 1) {
       if (arabicArray[index] < arabicArray[index + 1]) {
@@ -289,7 +290,7 @@ function calculatingSum(arabicArray) {
   return sum;
 }
 
-// console.log(calculatingSum(romanToArabic("ID")));
+// console.log(calculatingSum("CDXI"));
 
 
 // //Exercício 2
@@ -447,4 +448,102 @@ for (let index = 0; index < keysArray.length; index += 1) {
   message += `${valuesArray[index]} ${keysArray[index]}s, `
 }
   
-console.log('Sua cesta possui: ' + message);
+// console.log('Sua cesta possui: ' + message);
+
+
+
+
+//Exercício 4
+
+
+let moradores = {
+    blocoUm: [
+        {
+            nome: "Luíza",
+            sobrenome: "Guimarães",
+            andar: 10,
+            apartamento: 1005,
+        },
+        {
+            nome: "William",
+            sobrenome: "Albuquerque",
+            andar: 5,
+            apartamento: 502,
+        },
+    ],
+    blocoDois: [
+        {
+            nome: "Murilo",
+            sobrenome: "Ferraz",
+            andar: 8,
+            apartamento: 804,
+        },
+        {
+            nome: "Zoey",
+            sobrenome: "Brooks",
+            andar: 1,
+            apartamento: 101,
+        },
+    ],
+};
+
+
+
+// Acesse as chaves nome, sobrenome, andar e apartamento do último morador do blocoDois e faça um console.log no seguinte formato: “O morador do bloco 2 de nome Zoey Brooks mora no 1° andar, apartamento 101”.
+
+
+// console.log(
+//     `O morador do bloco 2 de nome ${
+//         moradores.blocoDois[moradores.blocoDois.length - 1].nome
+//     } ${
+//         moradores.blocoDois[moradores.blocoDois.length - 1].sobrenome
+//     } mora no ${
+//         moradores.blocoDois[moradores.blocoDois.length - 1].andar
+//     }º ${Object.keys(moradores.blocoDois[moradores.blocoDois.length - 1])[2]}, ${Object.keys(moradores.blocoDois[moradores.blocoDois.length - 1])[3]} ${moradores.blocoDois[moradores.blocoDois.length - 1].apartamento}.`
+// );
+
+
+// Utilize o for para imprimir o nome completo de todos os moradores do bloco 1, acessando suas chaves nome e sobrenome. Depois, faça o mesmo para os moradores do bloco 2.
+
+for (let morador of moradores.blocoUm) {
+    // console.log(morador.nome, morador.sobrenome);
+}
+
+for (let index = 0; index < moradores.blocoDois.length; index += 1) {
+    // console.log(moradores.blocoDois[index].nome + ' ' + moradores.blocoDois[index].sobrenome);
+}
+
+
+// 🚀 Bônus – Organização de lições
+// Com o uso do objeto (allLessons) obtido nos exercícios anteriores, crie uma função para contar o número de estudantes que assistiram às aulas de Matemática.
+
+// Com o uso do objeto (allLessons) obtido nos exercícios anteriores, crie uma função que retorne um objeto que represente o relatório da pessoa instrutora, as aulas ministradas e o número total de estudantes. A saída deverá ser a seguinte:
+
+let lesson1 = {
+    materia: "Matemática",
+    numeroEstudantes: 20,
+    professor: "Maria Clara",
+    turno: "manhã",
+};
+
+let lesson2 = {
+    materia: "História",
+    numeroEstudantes: 20,
+    professor: "Carlos",
+};
+
+let lesson3 = {
+    materia: "Matemática",
+    numeroEstudantes: 10,
+    professor: "Maria Clara",
+    turno: "noite",
+};
+
+const allLessons = Object.assign({}, {lesson1, lesson2, lesson3});
+
+const allLessonsArrayfied = Object.entries(allLessons);
+console.log(allLessonsArrayfied[0][0]);
+
+function mathAttendance() {
+    
+}
