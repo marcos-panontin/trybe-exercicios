@@ -539,11 +539,67 @@ let lesson3 = {
     turno: "noite",
 };
 
+
+// 🚀 Bônus – Organização de lições
+// Com o uso do objeto(allLessons) obtido nos exercícios anteriores, crie uma função para contar o número de estudantes que assistiram às aulas de Matemática.
+
 const allLessons = Object.assign({}, {lesson1, lesson2, lesson3});
 
 const allLessonsArrayfied = Object.entries(allLessons);
-console.log(allLessonsArrayfied[0][0]);
 
 function mathAttendance() {
-    
+    let mathStudents = 0;
+    for (let lesson of allLessonsArrayfied) {
+        if (lesson[1].materia === 'Matemática') {
+            mathStudents += lesson[1].numeroEstudantes;
+        };
+    }
+    return mathStudents;
 }
+
+// console.log(mathAttendance());
+
+
+// Com o uso do objeto (allLessons) obtido nos exercícios anteriores, crie uma função que retorne um objeto que represente o relatório da pessoa instrutora, as aulas ministradas e o número total de estudantes. A saída deverá ser a seguinte:
+
+//console.log(createReport(allLessons, 'Maria Clara'));
+// {
+//   professor: 'Maria Clara',
+//   aulas: [ 'Matemática', 'Matemática' ],
+//   estudantes: 30
+// }
+
+// {
+//   lesson1: {
+//     materia: 'Matemática',
+//     numeroEstudantes: 20,
+//     professor: 'Maria Clara',
+//     turno: 'manhã'
+//   },
+//   lesson2: { materia: 'História', numeroEstudantes: 20, professor: 'Carlos' },
+//   lesson3: {
+//     materia: 'Matemática',
+//     numeroEstudantes: 10,
+//     professor: 'Maria Clara',
+//     turno: 'noite'
+//   }
+// }
+
+console.log(allLessons);
+
+const createReport = (object, teacher) => {
+    let classes = [];
+    let totalNumberOfStudents = 0;
+
+    for (let lesson of Object.entries(object)) {
+        if (lesson[1].professor === teacher) {
+            classes.push(lesson[1].materia);
+            totalNumberOfStudents += lesson[1].numeroEstudantes;
+        }
+    }
+
+    const report = { professor: teacher, aulas: classes, estudantes: totalNumberOfStudents }
+    return report
+}
+
+console.log(createReport(allLessons, 'Maria Clara'));
