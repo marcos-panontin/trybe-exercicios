@@ -1,6 +1,6 @@
 import getAddressFromCep from "./getAdressFromCep";
 import "./style.css";
-// import Swal from 'sweetalert2';
+import Swal from 'sweetalert2';
 import '@sweetalert2/theme-dark/dark.min.css';
 // import "@sweetalert2/theme-dark/dark.css";
 // import Swal from 'sweetalert2/dist/sweetalert2.js';
@@ -31,7 +31,7 @@ export async function handleClick() {
       title: 'Oops, algo deu errado',
       text: `Mensagem de erro: ${error.message}`,
       // background: "rgb(50, 50, 50)",
-      // color: "white"
+      // color: "white",
     });
   
   }

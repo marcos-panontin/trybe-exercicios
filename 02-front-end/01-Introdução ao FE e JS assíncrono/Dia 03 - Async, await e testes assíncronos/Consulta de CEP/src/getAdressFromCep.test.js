@@ -1,20 +1,32 @@
 import getAdressFromCep from './getAdressFromCep.js'
 
-// Quando a requisição é bem sucedida, ela deverá retornar os dados esperados.
-// Os dados devem ser retornados em um objeto;
-
 describe('When the requisition is fulfilled, the function returns the expected data', () => {
   it('returns an object', async () => {
     await expect(typeof getAdressFromCep('04208-002')).toBe('object')
   });
   it('returns an object with keys logradouro, bairro and uf', async () => {
-      const expected = {logradouro: logra}
-    await expect(getAdressFromCep('04208-002')).toHaveProperty()
+    const adress = await getAdressFromCep('04208-002');
+    expect(adress).toHaveProperty('logradouro', 'Rua Silva Bueno');
+    expect(adress).toHaveProperty('bairro', 'Ipiranga');
+    expect(adress).toHaveProperty('uf', 'SP');
+  });
+  it('returns accepts prompts with or without hifen', async () => {
+    const adress = await getAdressFromCep('04208-002');
+    const secondAdress = await getAdressFromCep('04208002');
+    expect(adress).toEqual(secondAdress);
   });
 })
-// O objeto deve, obrigatoriamente, possuir as chaves logradouro, bairro e uf;
-// A função deverá aceitar cep com hífen (”30130-010”) ou sem hífen (”30130010”).
-// Quando a requisição é rejeitada, ela deverá retornar os erros esperados.
-// Ao passar um cep vazio, a aplicação deverá lançar um erro com a seguinte mensagem: “Você precisa passar um CEP”.
-// Ao passar um cep inválido, a aplicação deverá lançar um erro genérico.
+
+
+describe('When the requisition is rejected, the function returns the expected error', () => {
+  it('throws the error message “Você precisa passar um CEP” if empty CEP is given', async () => {
+    await expect(getAdressFromCep()).rejects.toThrow()
+    await expect(getAdressFromCep()).rejects.toThrow(new Error('Você precisa passar um CEP'))
+  });
+  it('throws the error message “Você precisa passar um CEP” if invalid CEP is given', async () => {
+    await expect(getAdressFromCep('00000-0000')).rejects.toThrow();
+    await expect(getAdressFromCep('00000-00')).rejects.toThrow();
+    await expect(getAdressFromCep('XXXXX-XXX')).rejects.toThrow();
+  });
+})
 

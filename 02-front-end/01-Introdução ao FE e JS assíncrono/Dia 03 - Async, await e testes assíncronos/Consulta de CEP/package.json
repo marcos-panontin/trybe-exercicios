@@ -1,22 +1,24 @@
 {
-  "name": "consulta-de-cep",
+  "name": "sd-031-live-lecture",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "NODE_OPTIONS=--experimental-vm-modules NODE_NO_WARNINGS=1 npx jest",
-    "build": "vite build",
-    "dev": "vite --open"
+    "test": "NODE_OPTIONS=--experimental-vm-modules NODE_NO_WARNINGS=1 jest --watchAll",
+    "dev": "vite --open",
+    "lint": "eslint ./src"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "@trybe/eslint-config-frontend": "^1.8.3",
+    "jest": "^29.5.0"
+  },
   "dependencies": {
     "@sweetalert2/theme-dark": "^5.0.15",
-    "@sweetalert2/themes": "^5.0.15",
-    "jest": "^29.5.0",
     "sweetalert2": "^11.7.3",
-    "vite": "^4.3.1"
+    "vite": "^4.2.2"
   }
 }
