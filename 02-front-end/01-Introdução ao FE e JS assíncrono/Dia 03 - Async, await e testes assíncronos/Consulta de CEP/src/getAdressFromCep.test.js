@@ -5,8 +5,12 @@ import getAdressFromCep from './getAdressFromCep.js'
 
 describe('When the requisition is fulfilled, the function returns the expected data', () => {
   it('returns an object', async () => {
-    await expect(typeof getAdressFromCep()).toBe('object')
-  })
+    await expect(typeof getAdressFromCep('04208-002')).toBe('object')
+  });
+  it('returns an object with keys logradouro, bairro and uf', async () => {
+      const expected = {logradouro: logra}
+    await expect(getAdressFromCep('04208-002')).toHaveProperty()
+  });
 })
 // O objeto deve, obrigatoriamente, possuir as chaves logradouro, bairro e uf;
 // A função deverá aceitar cep com hífen (”30130-010”) ou sem hífen (”30130010”).
