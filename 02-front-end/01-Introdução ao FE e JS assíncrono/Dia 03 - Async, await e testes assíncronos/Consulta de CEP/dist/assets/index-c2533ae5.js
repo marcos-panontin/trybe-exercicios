@@ -1,0 +1,7 @@
+(function(){const r=document.createElement("link").relList;if(r&&r.supports&&r.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))a(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const n of t.addedNodes)n.tagName==="LINK"&&n.rel==="modulepreload"&&a(n)}).observe(document,{childList:!0,subtree:!0});function s(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?t.credentials="include":e.crossOrigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function a(e){if(e.ep)return;e.ep=!0;const t=s(e);fetch(e.href,t)}})();async function c(o){if(!o)throw new Error("Você precisa passar um CEP");return await(await fetch(`https://viacep.com.br/ws/${o}/json/`)).json()}const i=document.querySelector("#input-field"),d=document.querySelector("button"),p=document.querySelector(".data-paragraph");d.addEventListener("click",l);async function l(){const o=i.value;try{const r=await c(o),s=`<p><span class='green'>CEP:</span> ${r.cep}</p>
+    <p><span class='green'>UF:</span> ${r.uf}</p>
+    <p><span class='green'>Localidade:</span> ${r.localidade}</p>
+    <p><span class='green'>DDD:</span> ${r.ddd}</p>
+    <p><span class='green'>Bairro:</span> ${r.bairro}</p>
+    <p><span class='green'>Logradouro:</span> ${r.logradouro}</p>
+    `;p.innerHTML=s}catch(r){Swal.fire({icon:"error",title:"Oops, algo deu errado",text:`Mensagem de erro: ${r.message}`})}}

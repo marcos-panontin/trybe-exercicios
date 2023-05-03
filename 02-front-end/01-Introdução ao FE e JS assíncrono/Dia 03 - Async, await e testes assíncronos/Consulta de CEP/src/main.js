@@ -1,6 +1,6 @@
 import getAddressFromCep from "./getAdressFromCep";
-import "./style.css";
 import Swal from 'sweetalert2';
+import "./style.css";
 import '@sweetalert2/theme-dark/dark.min.css';
 // import "@sweetalert2/theme-dark/dark.css";
 // import Swal from 'sweetalert2/dist/sweetalert2.js';
